@@ -10,8 +10,8 @@ connectors:
     id: github
     name: GitHub
     config:
-      clientID: Iv23lisOtqwHgyNWK0dK
-      clientSecret: 88606fba09e560028908d248878e3db84da27c20
+      clientID: Ov23livOHiPmvYPhWFGE
+      clientSecret: 2f10530e5a7d0e84aabc46452e8012fa5daaa0c5
       redirectURI: https://dex.pyl.one/callback
 staticClients:
   - id: hyvor-relay
