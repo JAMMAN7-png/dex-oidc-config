@@ -1,0 +1,21 @@
+issuer: https://dex.pyl.one
+storage:
+  type: sqlite3
+  config:
+    file: /var/dex/dex.db
+web:
+  http: 0.0.0.0:5556
+connectors:
+  - type: github
+    id: github
+    name: GitHub
+    config:
+      clientID: PLACEHOLDER_GITHUB_ID
+      clientSecret: PLACEHOLDER_GITHUB_SECRET
+      redirectURI: https://dex.pyl.one/callback
+staticClients:
+  - id: hyvor-relay
+    secret: LJRvbNDBp8aDlAqL2uwPRW9XZR1Zi7Km
+    name: Hyvor Relay
+    redirectURIs:
+      - https://relay.pyl.one/api/oidc/callback
