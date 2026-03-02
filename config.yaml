@@ -1,4 +1,4 @@
-issuer: https://dex.pyl.one
+issuer: https://dex.itry.live
 storage:
   type: sqlite3
   config:
@@ -12,10 +12,10 @@ connectors:
     config:
       clientID: Ov23livOHiPmvYPhWFGE
       clientSecret: 2f10530e5a7d0e84aabc46452e8012fa5daaa0c5
-      redirectURI: https://dex.pyl.one/callback
+      redirectURI: https://dex.itry.live/callback
 staticClients:
   - id: hyvor-relay
     secret: LJRvbNDBp8aDlAqL2uwPRW9XZR1Zi7Km
     name: Hyvor Relay
     redirectURIs:
-      - https://relay.pyl.one/api/oidc/callback
+      - https://relay.itry.live/api/oidc/callback
